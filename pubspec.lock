@@ -171,11 +171,9 @@ packages:
   hydrus_dart:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: c47011bc74b544358b5e4c7cce1fcf3043e4a8cc
-      url: "https://github.com/IceArrow256/hydrus_dart"
-    source: git
+      path: "../hydrus_dart"
+      relative: true
+    source: path
     version: "0.1.0"
   integration_test:
     dependency: "direct dev"
