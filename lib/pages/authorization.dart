@@ -137,8 +137,10 @@ class _AuthorizationState extends State<Authorization> {
               return;
             }
             _formKey.currentState.save();
-            print(_address);
-            print(_accessKey);
+            Navigator.pushReplacementNamed(context, '/processing', arguments: {
+              'address': _address,
+              'accessKey': _accessKey,
+            });
           },
           child: Icon(Icons.login),
           backgroundColor: Colors.green,

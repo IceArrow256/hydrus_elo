@@ -1,6 +1,7 @@
 ## [0.2.0] - 2021-01-07
 ### Added
-- Authorization screen with async validation
+- Authorization page with async validation
+- Add processing page
 
 ## [0.1.0] - 2021-01-05
 ### Added
